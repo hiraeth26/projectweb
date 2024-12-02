@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family:'Cambria', 'Georgia';
+   box-sizing: border-box;
+}
+body{
+    background: #dfb07a;
+    color: #220d0d;
+}
+#header{
+    width: 100%;
+    height: 50vh;
+    background-image: url(Images/CoverHead2.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+/*------------Artworks------------*/
+#Artworks{
+    padding: 50;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    margin-top: 100px;
+}
+.work img{
+    width: 100%;
+    border-radius: 50px;
+}
+/*------------Fanarts------------*/
+#fanarts{
+    padding: 50;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    margin-top: 100px;
+}
+.work img{
+    width: 100%;
+    border-radius: 50px;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+/*------------Personal Art------------*/
+#Personalart{
+    padding: 50px 0;
+}
+/*------------Fanarts------------*/
+#fanarts{
+    padding: 50px 0;
+}
